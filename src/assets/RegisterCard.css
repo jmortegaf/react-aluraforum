@@ -1,0 +1,60 @@
+.content{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #0d1117;
+}
+.register-card{
+    background-color: #161b22;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: none;
+}
+.register-card h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #f5f5f5;
+}
+.register-input{
+    position: relative;
+    margin-bottom: 1rem;
+}
+.register-input input{
+    background-color: #0d1117;
+    color: azure;
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 0px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 24px;
+    outline: none;
+}
+.register-input input:focus{
+    border: 1px solid #58a6ff;
+}
+.register-form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #238636;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.register-card a{
+    display: block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+}
